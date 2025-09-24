@@ -3,12 +3,16 @@
   "version": "1.0.0",
   "description": "Random node - True Random Number Generator (random.org)",
   "scripts": {
+    "test": "jest",
     "build": "tsc -p tsconfig.json",
     "watch": "tsc -w -p tsconfig.json"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20.4.2",
-    "n8n-workflow": "^1.85.4"
+    "jest": "^30.1.3",
+    "n8n-workflow": "^1.85.4",
+    "ts-jest": "^29.4.4",
+    "typescript": "^5.2.2"
   }
 }

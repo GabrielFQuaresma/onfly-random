@@ -8,7 +8,7 @@
     "target": "ES2022",           
     "module": "CommonJS",        
     "moduleResolution": "node",
-    "types": ["node"],
+    "types": ["node", "jest"],
 
     // Saídas adicionais
     "declaration": true,
@@ -21,5 +21,5 @@
 
     "lib": ["ES2022", "DOM"]
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*.ts", "src/**/*.test.ts"]
 }
