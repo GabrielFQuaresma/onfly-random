@@ -1,4 +1,4 @@
-# 🧩 Desafio Técnico: Custom Node n8n - Random
+# 🧩 Desafio Técnico: Custom Node n8n - Random (OnFly)
 
 [![Node.js](https://img.shields.io/badge/Node.js-v22-brightgreen)](https://nodejs.org/)
 [![n8n](https://img.shields.io/badge/n8n-1.85.4-blue)](https://n8n.io/)
@@ -19,7 +19,6 @@
 * [Utilizando o Node Random](#-utilizando-o-node-random)
 * [Testes Unitários](#-testes-unitários)
 * [Boas Práticas Implementadas](#-boas-práticas-implementadas)
-* [Entrega](#-entrega)
 
 ---
 
@@ -203,10 +202,3 @@ npm test
 * `try/catch` e validações de parâmetros
 * Testes unitários completos
 
----
-
-## 📦 Entrega
-
-* Repositório público no GitHub
-* Contém `docker-compose.yml`, `n8n_custom/`, node compilado e testes
-* README detalhado para instalação, execução e testes
