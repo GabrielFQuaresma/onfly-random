@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    // Estrutura dos arquivos
+    "rootDir": "./src",
+    "outDir": "../n8n_custom/nodes/Random",
+
+    // Ambiente
+    "target": "ES2022",           
+    "module": "CommonJS",        
+    "moduleResolution": "node",
+    "types": ["node"],
+
+    // Saídas adicionais
+    "declaration": true,
+    "sourceMap": true,
+
+    // Opções recomendadas
+    "strict": true,
+    "esModuleInterop": true,      
+    "skipLibCheck": true,
+
+    "lib": ["ES2022", "DOM"]
+  },
+  "include": ["src/**/*.ts"]
+}

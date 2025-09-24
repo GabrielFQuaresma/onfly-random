@@ -1,0 +1,12 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# Sistema e IDE
+.DS_Store
+.vscode/
+
+# Env
+.env

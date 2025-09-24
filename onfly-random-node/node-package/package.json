@@ -1,0 +1,14 @@
+{
+  "name": "n8n-nodes-random",
+  "version": "1.0.0",
+  "description": "Random node - True Random Number Generator (random.org)",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "tsc -w -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.4.2",
+    "n8n-workflow": "^1.85.4"
+  }
+}
